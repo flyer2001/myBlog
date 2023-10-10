@@ -14,7 +14,7 @@ struct PublishSwift: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://s.popyvanov.ru")!
+    var url = URL(string: "https://s.popyvanov.ru/blog")!
     var name = "Блог Попыванова Сергея"
     var description = "Ращу цифровой сад, а тут собираю плоды"
     var language: Language { .russian }
