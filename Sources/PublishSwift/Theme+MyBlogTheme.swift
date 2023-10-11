@@ -21,10 +21,19 @@ private struct MyBlogHTMLFactory<Site: Website>: HTMLFactory {
             .body {
                 SiteHeader(context: context, selectedSelectionID: nil)
                 Wrapper {
-                        Div(context.allItems(sortedBy: \.date).first { $0.title == "Познакомимся" }!.content.body).class("content")
-                        //Div(item.content.body).class("content")
-                        //Span("Tagged with: ")
-                        //ItemTagList(item: item, site: context.site)
+                    Table {
+                        TableRow {
+                            Div {
+                                Image("https://lh3.googleusercontent.com/pw/ADCreHc2x66qSYcgUtAAm7vrOXmMerMqKdszXQvitsd9yhzToqL-xfMYI-Npny-Vh8FSVYieEAwoyohTTwzRjy1Ce-4VWf5c4FihoZHMGZH27AhbRLPZuos=w2400").style("background-color:transparent").class("my-picture")
+                            }.class("image-cropper")
+                            Span().style("margin: 10px;")
+                            TableCell {
+                                Text("Добро пожаловать в мой цифровой садик. Меня зовут ")
+                                Text("Сергей Попыванов").bold()
+                                Text(". Я iOS-разработчик в Авито, немного барабанщик, веду персональную базу знаний, которая мне уже давно сильно жмет. Потренируюсь делиться полезностями.")
+                            }.style("text-align: justify;")
+                        }
+                    }
                 }
                 Wrapper {
                     Paragraph(context.site.description)
