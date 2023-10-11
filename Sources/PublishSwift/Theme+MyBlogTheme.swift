@@ -21,19 +21,18 @@ private struct MyBlogHTMLFactory<Site: Website>: HTMLFactory {
             .body {
                 SiteHeader(context: context, selectedSelectionID: nil)
                 Wrapper {
-                    Table {
-                        TableRow {
+                    Div {
+                        Div {
                             Div {
                                 Image("https://lh3.googleusercontent.com/pw/ADCreHc2x66qSYcgUtAAm7vrOXmMerMqKdszXQvitsd9yhzToqL-xfMYI-Npny-Vh8FSVYieEAwoyohTTwzRjy1Ce-4VWf5c4FihoZHMGZH27AhbRLPZuos=w2400").style("background-color:transparent").class("my-picture")
                             }.class("image-cropper")
-                            Span().style("margin: 10px;")
-                            TableCell {
-                                Text("Добро пожаловать в мой цифровой садик. Меня зовут ")
-                                Text("Сергей Попыванов").bold()
-                                Text(". Я iOS-разработчик в Авито, немного барабанщик, веду персональную базу знаний, которая мне уже давно сильно жмет. Потренируюсь делиться полезностями.")
-                            }.style("text-align: justify;")
-                        }
-                    }
+                        }.class("table-cell")
+                            Div {
+                                Text("Добро пожаловать в мой цифровой садик. Меня зовут Сергей Попыванов. Я iOS-разработчик в Авито, немного барабанщик, веду персональную базу знаний, которая мне уже давно сильно жмет. Потренируюсь делиться полезностями.")
+                            }
+                            .class("table-cell-fixed")
+                            .style("text-align: justify;")
+                    }.class("table")
                 }
                 Wrapper {
                     Paragraph(context.site.description)

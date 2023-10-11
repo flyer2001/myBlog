@@ -143,11 +143,29 @@ a {
     border-radius: 160px;
     overflow:hidden;
 }
+
 .my-picture {
     display: block;
     margin: 0 auto;
     height: auto;
     width: 100%;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table-cell {
+  flex-basis: 41%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.table-cell-fixed {
+  flex-basis: 400px;
+  display: flex;
+  align-items: center;
 }
 
 footer {
@@ -176,5 +194,8 @@ footer {
 @media(max-width: 600px) {
     .wrapper {
         padding: 40px 20px;
+    }
+    .table-cell {
+      flex-basis: 100%;
     }
 }
