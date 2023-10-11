@@ -23,5 +23,5 @@ struct PublishSwift: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try PublishSwift().publish(withTheme: .foundation, at: Path("blog"))
+try PublishSwift().publish(withTheme: .foundation)
 
