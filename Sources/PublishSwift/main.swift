@@ -14,7 +14,7 @@ struct PublishSwift: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://s.popyvanov.ru/blog")!
+    var url = URL(string: "https://s.popyvanov.ru/blog/")!
     var name = "Блог Попыванова Сергея"
     var description = "Тестовая страница"
     var language: Language { .russian }
@@ -23,5 +23,5 @@ struct PublishSwift: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try PublishSwift().publish(withTheme: .foundation)
+try PublishSwift().publish(withTheme: .foundation, at: Path("blog"))
 
