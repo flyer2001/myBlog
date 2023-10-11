@@ -6,7 +6,7 @@ import Plot
 struct PublishSwift: Website {
     enum SectionID: String, WebsiteSectionID {
         case posts
-        case about
+        case bio
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
@@ -15,13 +15,12 @@ struct PublishSwift: Website {
 
     // Update these properties to configure your website:
     var url = URL(string: "https://s.popyvanov.ru/blog/")!
-    var name = "Блог Попыванова Сергея"
-    var description = "Тестовая страница"
+    var name = "Цифровой садик Попыванова Сергея"
+    var description = "заметки, которые не помещаются в блокнот"
     var language: Language { .russian }
     var imagePath: Path? { nil }
     var favicon = Favicon(path: Path("images/favicon.png"), type: "image/x-icon")
 }
 
-// This will generate your website using the built-in Foundation theme:
-try PublishSwift().publish(withTheme: .foundation)
+try PublishSwift().publish(withTheme: .myBlogTheme)
 
