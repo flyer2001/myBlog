@@ -23,4 +23,4 @@ tags: article
 https://domains.webmoney.ru
 
 Не обязательно ограничиваться доменной зоной **.ru**, просто она из самых доступных)))
-<iframe src="https://downloader.disk.yandex.ru/preview/493c815f4e32335fef9d943669db60ef1f3274fb8838ad4c501ef26a64f7370e/6529524c/1iagDYkriCBbRpyNOOonMTybUhBIVKLV472nZ4z-F7LMZBAx0PuVaFA8rXhaxyXr4ezj_HXYtlwAmIvvwlo3rA%3D%3D?uid=0&filename=2023-10-13_14-20-07.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048"  width="1319" height="828" frameBorder="0"  allowFullScreen></iframe>
+![](https://lh3.googleusercontent.com/pw/ADCreHdEhUmIq4zi0NxU05dFweviV4yFyekk8--zv-r0yN8tXifBWiG6Nceg3KIxtSPysuBCtXkUuWmin70nwlxnbIOFb6EGl2C5bLX-MXHcJRTBMOQ2Ss0=w2400)
