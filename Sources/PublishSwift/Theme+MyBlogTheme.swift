@@ -29,10 +29,9 @@ private struct MyBlogHTMLFactory<Site: Website>: HTMLFactory {
                         }.class("table-cell")
                             Div {
                                 Text("Добро пожаловать в мой цифровой садик. Меня зовут Сергей Попыванов. Я iOS-разработчик в Авито, немного барабанщик, веду персональную базу знаний, которая мне уже давно сильно жмет. Потренируюсь делиться полезностями.")
-                            }
-                            .class("table-cell-fixed")
-                            .style("text-align: justify;")
-                    }.class("table")
+                            }.class("table-cell-fixed")
+                    }
+                    .class("table")
                 }
                 Wrapper {
                     Paragraph(context.site.description)
