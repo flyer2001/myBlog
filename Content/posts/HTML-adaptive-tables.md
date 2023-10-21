@@ -7,8 +7,8 @@ aliases:
 ---
 
 # HTML. Адаптивный дизайн начало
-проверка апдейта
-devops-ер в здании теперь точно 111
+
+devops-ер в здании
 
 <iframe src="https://giphy.com/embed/HYcoVYP4wKJF71lJK2" width="480" height="338" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
