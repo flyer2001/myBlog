@@ -15,11 +15,14 @@ jobs:
         with:
           ref: main
           
-      - name: Fetch latest changes
-        run: git fetch origin main
-        
-      - name: Pull last commit
-        run: git pull
+       - name: Clone or pull repository
+      run: |
+        if [ -d "myBlog" ]; then
+          cd myBlog
+          git pull
+        else
+          git clone https://github.com/flyer2001/myBlog.git
+        fi
       
       - name: Run publish generate command
         run: |
