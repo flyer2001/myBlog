@@ -11,13 +11,10 @@ jobs:
 
     runs-on: ubuntu-latest
     
-    defaults:
-      run:
-        working-directory: /myBlog
-
-
     steps:
       - name: Git pull
+        working-directory: ./myBlog
         run: git pull
       - name: Generate
+        working-directory: ./myBlog
         run: publish generate
