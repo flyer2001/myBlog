@@ -12,9 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Show workspace path
+        run: echo $GITHUB_WORKSPACE
       - name: Git pull
-        working-directory: ./myBlog
+        working-directory: ../../../myBlog
         run: git pull
       - name: Generate
-        working-directory: ./myBlog
+        working-directory: ../../../myBlog
         run: publish generate
