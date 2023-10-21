@@ -41,7 +41,7 @@ jobs:
         run: echo $GITHUB_WORKSPACE
 
       - name: Remove files in /var/www/popyvanov.ru/s
-        run: rm -rf /var/www/popyvanov.ru/s/Output/*
+        run: rm -rf /var/www/popyvanov.ru/s/*
       
       - name: Copy files from Output folder to /var/www/popyvanov.ru/s
-        run: cp -r ${{ github.workspace }}/Output/* /var/www/popyvanov.ru/s/Output
+        run: cp -r ${{ github.workspace }}/Output/* /var/www/popyvanov.ru/s
