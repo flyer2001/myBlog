@@ -1,39 +1,37 @@
 name: PublishSwift
 
 on:
-  push:
+    push:
     branches:
-      - main
+        - main
 
 jobs:
-  build:
+    build:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v3
-        with:
-          ref: main
-          
-       - name: Clone or pull repository
-      run: |
-        if [ -d "myBlog" ]; then
-          cd myBlog
-          git pull
-        else
-          git clone https://github.com/flyer2001/myBlog.git
-        fi
-      
-      - name: Run publish generate command
+        - name: Checkout repository
+        uses: actions/checkout@v2
+        
+        - name: Clone or pull repository
+        run: |
+            if [ -d "myBlog" ]; then
+                cd myBlog
+                git pull
+            else
+                git clone https://github.com/flyer2001/myBlog.git
+            fi
+        
+        - name: Run publish generate command
         run: |
           cd ${{ github.workspace }}
           publish generate
-          
-      - name: Print path to Output folder
+        
+        - name: Print path to Output folder
         run: echo "Path to Output folder: ${{ github.workspace }}/Output"
         
-      - name: Remove files in /var/www/popyvanov.ru/s
+        - name: Remove files in /var/www/popyvanov.ru/s
         run: rm -rf /var/www/popyvanov.ru/s/Output/*
         
-      - name: Copy files from Output folder to /var/www/popyvanov.ru/s
+        - name: Copy files from Output folder to /var/www/popyvanov.ru/s
         run: cp -r ${{ github.workspace }}/Output/* /var/www/popyvanov.ru/s/Output
