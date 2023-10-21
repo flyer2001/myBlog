@@ -12,7 +12,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/flyer2001/Publish.git", from: "0.9.1")
+        .package(url: "https://github.com/flyer2001/Publish.git", from: "0.9.3")
     ],
     targets: [
         .executableTarget(
