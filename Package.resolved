@@ -48,10 +48,10 @@
     {
       "identity" : "publish",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/johnsundell/publish.git",
+      "location" : "https://github.com/flyer2001/Publish.git",
       "state" : {
-        "revision" : "1c8ad00d39c985cb5d497153241a2f1b654e0d40",
-        "version" : "0.9.0"
+        "revision" : "734e2c5323b3ce50ab73e313bc268605c0ca6b4b",
+        "version" : "0.9.3"
       }
     },
     {
