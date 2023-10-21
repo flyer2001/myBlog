@@ -1,10 +1,6 @@
 ---
 date: 2023-10-21 17:37
 description: пошаговый мануал
-tags:
-  - swift
-aliases:
-  - Настройка swift server блога на jino.ru
 ---
 # Настройка swift server блога на jino.ru
 
