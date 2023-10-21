@@ -2,21 +2,35 @@ name: PublishSwift
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     
     steps:
-      - name: Show workspace path
-        run: echo $GITHUB_WORKSPACE
-      - name: Git pull
-        working-directory: ../../../myBlog
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          
+      - name: Fetch latest changes
+        run: git fetch origin main
+        
+      - name: Pull last commit
         run: git pull
-      - name: Generate
-        working-directory: ../../../myBlog
-        run: publish generate
+      
+      - name: Run publish generate command
+        run: |
+          cd ${{ github.workspace }}
+          publish generate
+          
+      - name: Print path to Output folder
+        run: echo "Path to Output folder: ${{ github.workspace }}/Output"
+        
+      - name: Remove files in /var/www/popyvanov.ru/s
+        run: rm -rf /var/www/popyvanov.ru/s/Output/*
+        
+      - name: Copy files from Output folder to /var/www/popyvanov.ru/s
+        run: cp -r ${{ github.workspace }}/Output/* /var/www/popyvanov.ru/s/Output
