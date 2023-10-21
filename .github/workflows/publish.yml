@@ -1,0 +1,22 @@
+name: PublishSwift
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Change directory
+        run: cd /myBlog
+      - name: Git pull
+        run: git pull
+      - name: Generate
+        run: publish generate
