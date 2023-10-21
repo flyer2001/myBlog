@@ -21,10 +21,20 @@ jobs:
           else
             git clone https://github.com/flyer2001/myBlog.git
           fi
+      - name: clone or make publish
+        run: |
+          cd ..
+          if [ -d "Publish" ]; then
+            echo "Publish exist"
+          else
+            git clone https://github.com/flyer2001/Publish.git
+            cd Publish
+            make
+          fi
       
       - name: Run publish generate command
         run: |
-          cd ${{ github.workspace }}
+          cd ../myBlog
           publish generate
       
       - name: Print path to Output folder
