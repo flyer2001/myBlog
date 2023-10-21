@@ -28,8 +28,8 @@ jobs:
           publish generate
       
       - name: Print path to Output folder
-        run: echo "Path to Output folder: ${{ github.workspace }}/Output"
-      
+        run: echo $GITHUB_WORKSPACE
+
       - name: Remove files in /var/www/popyvanov.ru/s
         run: rm -rf /var/www/popyvanov.ru/s/Output/*
       
