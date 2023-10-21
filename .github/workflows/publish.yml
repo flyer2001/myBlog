@@ -10,10 +10,13 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: /myBlog
+
 
     steps:
-      - name: Change directory
-        run: cd /myBlog
       - name: Git pull
         run: git pull
       - name: Generate
