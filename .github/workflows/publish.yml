@@ -11,6 +11,6 @@ jobs:
     
     steps:
       - name: Navigate to parent directory
-        working_directory: '**/myBlog'
+        working-directory: '**/myBlog'
         run: pwd
 
