@@ -2,16 +2,16 @@ name: PublishSwift
 
 on:
   push:
-    branches:
+      branches:
       - main
 
 jobs:
-  build:
+    build:
     runs-on: ubuntu-latest
-        
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Run script file
-        working-directory: ./
-        run: echo ${{ github.workspace }}
+
+steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        path: /myBlog
+
