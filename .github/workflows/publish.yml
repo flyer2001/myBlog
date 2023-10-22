@@ -19,5 +19,9 @@ jobs:
       - name: Navigate to parent directory
         run: cd ..
 
+      - name: Print current directory
+        run: pwd
+      
       - name: Print folders on current level
-        run: ls
+        run: ls -l
+
