@@ -11,17 +11,6 @@ jobs:
     
     steps:
       - name: Navigate to parent directory
-        run: cd ..
-      - name: Navigate to parent directory
-        run: cd ..
-      - name: Navigate to parent directory
-        run: cd ..
-      - name: Navigate to parent directory
-        run: cd ..
-
-      - name: Print current directory
+        working_directory: '**/myBlog'
         run: pwd
-      
-      - name: Print folders on current level
-        run: ls -l
 
