@@ -8,5 +8,7 @@ aliases:
 
 # HTML. Адаптивный дизайн начало
 
+devops-ер в здании теперь точно
+
 <iframe src="https://giphy.com/embed/HYcoVYP4wKJF71lJK2" width="480" height="338" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
