@@ -1,15 +1,25 @@
 name: PublishSwift
 
 on:
-  push:
+    push:
     branches:
-      - main
+        - main
 
 jobs:
-  build:
+    build:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        run: echo "$(dirname $(dirname $(dirname $(dirname $(dirname ${GITHUB_WORKSPACE})))))"
+        - name: Navigate to parent directory
+          run: cd ..
+        - name: Navigate to parent directory
+          run: cd ..
+        - name: Navigate to parent directory
+          run: cd ..
+        - name: Navigate to parent directory
+          run: cd ..
+
+        - name: Print folders on current level
+          run: ls
+
 
