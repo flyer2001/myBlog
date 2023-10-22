@@ -10,11 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
     - name: SSH to server and execute commands
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssh-action@v1.0.0
       with:
         host: localhost
         username: root
