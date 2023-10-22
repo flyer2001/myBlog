@@ -1,18 +1,19 @@
 name: PublishSwift
 
 on:
-    push:
+  push:
     branches:
-        - main
+      - main
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
         
-        steps:
-            - uses: actions/checkout@v3
-            - name: Run script file
-            run: |
-                chmod +x ./scripts/generate.sh
-                ./scripts/generate.sh
-            shell: bash
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run script file
+        run: |
+          chmod +x ./scripts/generate.sh
+          ./scripts/generate.sh
+        shell: bash
