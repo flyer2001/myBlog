@@ -2,16 +2,15 @@ name: PublishSwift
 
 on:
   push:
-      branches:
+    branches:
       - main
 
 jobs:
-    build:
+  build:
     runs-on: ubuntu-latest
 
-steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        path: /myBlog
-
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          path: /myBlog
