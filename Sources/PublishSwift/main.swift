@@ -9,7 +9,6 @@ import SplashPublishPlugin
 struct PublishSwift: Website {
     enum SectionID: String, WebsiteSectionID {
         case posts
-        case bio
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
@@ -25,7 +24,6 @@ struct PublishSwift: Website {
     var favicon = Favicon(path: Path("Resources/favicon.png"), type: "image/x-icon")
 }
 
-//try PublishSwift().publish(withTheme: .myBlogTheme)
 try PublishSwift().publish(using: [
     .installPlugin(.splash(withClassPrefix: "splash")),
     .generateHtmlFromMarkdownFiles(),
