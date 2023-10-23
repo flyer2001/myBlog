@@ -3,6 +3,7 @@ import Foundation
 import Ink
 import Publish
 import Plot
+import SplashPublishPlugin
 
 // This type acts as the configuration for your website.
 struct PublishSwift: Website {
@@ -26,6 +27,7 @@ struct PublishSwift: Website {
 
 //try PublishSwift().publish(withTheme: .myBlogTheme)
 try PublishSwift().publish(using: [
+    .installPlugin(.splash(withClassPrefix: "splash")),
     .generateHtmlFromMarkdownFiles(),
     .sortItems(by: \.date, order: .descending),
     .generateHTML(withTheme: .myBlogTheme),
