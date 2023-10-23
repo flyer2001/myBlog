@@ -12,6 +12,8 @@ tags:
 - есть уже готовый Publish [плагин с докой](https://github.com/johnsundell/splashpublishplugin)
 - подсмотрел стили на [сайте](https://www.avanderlee.com/concurrency/thread-dispatching-actor-execution/)
 - добавил плагин и стили - [подробности в PR ](https://github.com/flyer2001/myBlog/pull/9/files)
+
+
 ![](https://habrastorage.org/webt/xy/z1/iv/xyz1ivi95ufvb2cexjstvdgbbzu.png)
 
 ## Связанные заметки 
