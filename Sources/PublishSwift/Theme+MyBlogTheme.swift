@@ -36,7 +36,7 @@ private struct MyBlogHTMLFactory<Site: Website>: HTMLFactory {
                 Wrapper {
                     Paragraph(context.site.description)
                         .class("description")
-                    H2("Latest content")
+                    H2("Свежие статьи")
                     
                     ItemList(
                         items: context.allItems(
@@ -233,9 +233,9 @@ private struct SiteFooter: Component {
                 Text("Сайт собран на Swift с помощью ")
                 Link("Publish", url: "https://github.com/johnsundell/publish")
             }
-            Paragraph {
-                Link("RSS feed", url: "/feed.rss")
-            }
+//            Paragraph {
+//                Link("RSS feed", url: "/feed.rss")
+//            }
         }
     }
 }
