@@ -25,9 +25,11 @@ path: publish-obsidian-like-wiki-links
 
 [[организация единого хранилища с опубликованными статьями]]
 ![](https://habrastorage.org/webt/pw/lc/eg/pwlcegtss0rrtch2mk_gnf99ala.png)
+
 Вот на графе видно:
 - несуществующая статья
 - как я ссылаюсь на опубликованные заметки 
+
 
 ![](https://habrastorage.org/webt/i8/it/zr/i8itzr19-zdqkex7r4khvip-dby.png)
 

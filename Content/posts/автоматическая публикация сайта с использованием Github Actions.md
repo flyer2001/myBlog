@@ -11,7 +11,7 @@ path: devops-hello-world
 - клонируем' репозиторий блога https://github.com/flyer2001/myBlog
 - клонируем' и разворачиваем генератор статических страниц https://github.com/flyer2001/Publish
 
-(') - Об этом подробнее тут [[настройка swift server блога на jino.ru]] [[настройка swift server блога на jino.ru]] 
+(') - Об этом подробнее тут  [[настройка swift server блога]] 
 
 ## Что хотим автоматизировать
 Каждый раз когда в репозиторий блога прилетает обновление (= публикация нового контента) нужно запускать три команды:
@@ -82,4 +82,4 @@ secrets.ssh_password - это переменная, которую нужно п
 ![](https://habrastorage.org/webt/jg/2a/_1/jg2a_1mqdxfmzo3bw3tkgszdg2a.png)
 
 ## Куда дальше?
-[[настройка swift server блога на jino.ru]]
+[[настройка swift server блога]]
