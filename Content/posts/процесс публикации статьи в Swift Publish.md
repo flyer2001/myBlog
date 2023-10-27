@@ -1,6 +1,6 @@
 ---
-date: 2023-10-23 14:34
-description: описание статьи
+date: 2023-10-27 11:35
+description: свой Obsidian Publish с блэкджеком и плюхами))
 tags: 
 path: publish-note-with-swift-publish
 ---
