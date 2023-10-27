@@ -39,10 +39,7 @@ private struct MyBlogHTMLFactory<Site: Website>: HTMLFactory {
                     .class("table")
                 }
                 Wrapper {
-                    Paragraph(context.site.description)
-                        .class("description")
                     H2("Свежие статьи")
-                    
                     ItemList(
                         items: context.allItems(
                             sortedBy: \.date,
