@@ -10,4 +10,5 @@ publish generate
 ```
 
 Внутри блога есть мануал, как запилить себе такой же - https://s.popyvanov.ru/posts/publish-swift-server-blog/
+
 Анонсирую обновления в тг канале - https://t.me/serg_popyvanov_blog
