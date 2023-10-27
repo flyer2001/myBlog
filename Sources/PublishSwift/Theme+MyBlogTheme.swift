@@ -232,8 +232,8 @@ private struct SiteFooter: Component {
     var body: Component {
         Footer {
             Paragraph {
-                Text("Сайт собран на Swift с помощью ")
-                Link("Publish", url: "https://github.com/johnsundell/publish")
+                Text("Сайт собран с помощью ")
+                Link("Swift Publish", url: "https://github.com/johnsundell/publish")
             }
 //            Paragraph {
 //                Link("RSS feed", url: "/feed.rss")
