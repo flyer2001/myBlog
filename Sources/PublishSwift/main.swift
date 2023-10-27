@@ -18,7 +18,7 @@ struct PublishSwift: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://s.popyvanov.ru/")!
     var name = "Цифровой садик Попыванова Сергея"
-    var description = "заметки, которые не помещаются в блокнот"
+    //var description = "заметки, которые не помещаются в блокнот"
     var language: Language { .russian }
     var imagePath: Path? { nil }
     var favicon = Favicon(path: Path("Resources/favicon.png"), type: "image/x-icon")
