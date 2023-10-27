@@ -28,10 +28,11 @@ private struct MyBlogHTMLFactory<Site: Website>: HTMLFactory {
                             }.class("image-cropper")
                         }.class("table-cell")
                             Div {
-                                Text("Добро пожаловать в мой цифровой садик. Меня зовут Сергей Попыванов. Я iOS-разработчик в Авито, немного барабанщик, веду персональную базу знаний, которая мне уже давно сильно жмет. Потренируюсь делиться полезностями. Подробнее обо мне ")
-                                Link("тут.", url: "https://s.popyvanov.ru/posts/about-popyvanov-sergey")
+                                Wrapper{
+                                    Text("Добро пожаловать в мой цифровой садик. Меня зовут Сергей Попыванов. Я iOS-разработчик в Авито, немного барабанщик, веду персональную базу знаний, которая мне уже давно сильно жмет. Потренируюсь делиться полезностями. Подробнее обо мне ")
+                                    Link("тут.", url: "https://s.popyvanov.ru/posts/about-popyvanov-sergey")
+                                }
                             }.class("table-cell-fixed")
-                            
                     }
                     .class("table")
                 }
