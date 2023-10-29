@@ -19,6 +19,6 @@ jobs:
         script: |
           cd /myBlog
           git pull
-          publish generate
+          swift run
           exit
 
