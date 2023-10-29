@@ -6,7 +6,7 @@ https://s.popyvanov.ru
 
 Можно форкнуть этот репозиторий и положить свои markdown файлы в папку Contents и выполнить 
 ```
-publish generate
+swift run
 ```
 
 Внутри блога есть мануал, как запилить себе такой же - https://s.popyvanov.ru/posts/publish-swift-server-blog/
