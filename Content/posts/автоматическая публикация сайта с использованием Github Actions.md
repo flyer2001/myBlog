@@ -21,7 +21,7 @@ path: devops-hello-world
 ```
 cd /myBlog
 git pull
-publish generate
+swift run
 ```
 
 ## Установка self-hosted runner 
@@ -64,7 +64,7 @@ jobs:
         script: |
           cd /myBlog
           git pull
-          publish generate
+          swift run
           exit
 
 ```
