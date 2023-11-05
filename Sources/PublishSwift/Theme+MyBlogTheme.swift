@@ -7,7 +7,10 @@ extension Theme {
     static var myBlogTheme: Self {
         Theme(
             htmlFactory: MyBlogHTMLFactory(),
-            resourcePaths: ["Resources/MyBlogTheme/styles.css"]
+            resourcePaths: [
+                "Resources/MyBlogTheme/styles.css",
+                "Resources/MyBlogTheme/inter.ttf"
+            ]
         )
     }
 }

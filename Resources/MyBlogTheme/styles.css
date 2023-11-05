@@ -7,9 +7,15 @@
 body {
     background: #fff;
     color: #000;
-    font-family: Helvetica, Arial;
+    font-family: 'Inter';
     text-align: center;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/inter.ttf') format('truetype');
+}
+
 
 img {
     max-width: 600px;
@@ -71,7 +77,17 @@ p {
 }
 
 a {
-    color: inherit;
+    color: rgb(117, 61, 243);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(148, 112, 247);
+    text-decoration: underline;
+}
+
+header .site-name:hover {
+    color: #000;
 }
 
 .description {
@@ -102,6 +118,7 @@ li {
 .item-list h1 {
     margin-bottom: 15px;
     font-size: 1.3em;
+    color: #000;
 }
 
 .item-list p {
