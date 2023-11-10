@@ -6,7 +6,7 @@ path: publish-obsidian-like-wiki-links
 ---
 # Как добавить обработку вики ссылок в блог Publish
 
-Код в [PR](https://github.com/flyer2001/myBlog/pull/13/files#diff-c27f293b36f900115c3d4417c28ec2ec545c3682bbb3fb528d81975d79abff67)
+Код в [PR](https://github.com/flyer2001/myBlog/commit/7c85dce93172c791511eda09cd586cb0ad1c99a4)
 
 Сначала называл  файлы короткими названиями, чтобы была  ссылка типа [https://s.popyvanov.ru/posts/discover](https://s.popyvanov.ru/posts/discover)
 Но это сильно не ложилось с концепцией Obsidian когда даю [внутренние ссылки ](https://publish.obsidian.md/help-ru/Руководства/Создание+внутренних+ссылок) двумя квадратными скобками 

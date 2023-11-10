@@ -111,6 +111,8 @@ nginx -t
 Основной мануал по установке [swift](https://docs.vapor.codes/deploy/digital-ocean/#install-swift) 
 Но необходимо для начала поставить необходимые зависимости, брал [отсюда](https://www.swift.org/install/linux/#installation-via-docker) тут более полный список что ли)))
 
+без swiftly настройка swift ручками [тут](https://gist.github.com/Jswizzy/408af5829970f9eb18f9b45f891910bb) 
+
 ```
 apt-get install \
           binutils \
@@ -214,7 +216,7 @@ https://s.popyvanov.ru
 ```
 cd /myBlog
 git pull
-publish generate
+swift run
 ```
 
 А чтобы немного это автоматизировать идем сюда - [[автоматическая публикация сайта с использованием Github Actions]]
