@@ -1,5 +1,5 @@
 ---
-date: 2023-10-23 14:34
+date: 2023-11-10 22:40
 description: vpn с большой скоростью
 tags: 
 path: vpn-vps-amnezia
@@ -17,8 +17,7 @@ path: vpn-vps-amnezia
 
 ## Ссылки
 
-До этого использовал скрипт для openVPN сервера
-https://dtf.ru/howto/1268692-delaem-svoy-vpn-server-s-trafikom-32-tb-odnoy-komandoy
+До этого использовал [скрипт для openVPN сервера](https://dtf.ru/howto/1268692-delaem-svoy-vpn-server-s-trafikom-32-tb-odnoy-komandoy)
 
 ## Куда дальше
 [[настройка swift server блога]]  
