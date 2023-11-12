@@ -121,6 +121,12 @@ li {
     color: #000;
 }
 
+.item-list h2 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    color: #000;
+}
+
 .item-list p {
     margin-bottom: 0;
 }
