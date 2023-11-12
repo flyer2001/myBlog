@@ -1,6 +1,6 @@
 ---
 date: 2023-10-22 23:55
-description: колхозный devops через github actions
+description: Как использовать github actions для автоматизации публикации сайта на Swift? Шаги по настройке self-hosted runner при обновлении репозитория блога.
 tags: 
 path: devops-hello-world
 ---

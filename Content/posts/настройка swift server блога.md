@@ -1,6 +1,6 @@
 ---
 date: 2023-10-21 17:37
-description: пошаговый мануал
+description: "пошаговый мануал как создать Swift Publish блог на своем хостинге: настройка Ubutnu Linux сервера, домена, nginx, установка swift на Linux, установка ssl сертификата и деплой сайта"
 path: publish-swift-server-blog
 ---
 # Настройка swift server блога

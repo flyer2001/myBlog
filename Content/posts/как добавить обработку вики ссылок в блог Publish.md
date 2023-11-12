@@ -1,6 +1,6 @@
 ---
 date: 2023-10-23 14:34
-description: как внутренние ссылки в Obsidian
+description: Как обработать внутренние вики-ссылки в Swift Publish блоге, одновременно используя короткие названия типа "posts/my-article"
 tags: 
 path: publish-obsidian-like-wiki-links
 ---
@@ -34,5 +34,7 @@ path: publish-obsidian-like-wiki-links
 ![](https://habrastorage.org/webt/i8/it/zr/i8itzr19-zdqkex7r4khvip-dby.png)
 
 ## Куда дальше
-[[куда дальше]]
+[[куда дальше]]  
+[[настройка swift server блога]]  
+[[бесплатный генератор Swift Publish блога на Netlify]]
 

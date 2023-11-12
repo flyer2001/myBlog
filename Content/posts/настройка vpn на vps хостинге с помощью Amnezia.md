@@ -1,10 +1,10 @@
 ---
 date: 2023-11-10 22:40
-description: vpn с большой скоростью
+description: как настроить VPN на своем хостинге с помощью сервера Amnezia
 tags: 
 path: vpn-vps-amnezia
 ---
-# Настройка vpn на vps хостинге amnezia
+# Настройка vpn на vps хостинге с помощью Amnezia
 
 Меня замучало, что настроенный мной OpenVPN то работает, то не работает. 
 Воодушевился [статьей](https://habr.com/ru/companies/amnezia/articles/769992/) 
@@ -21,3 +21,4 @@ path: vpn-vps-amnezia
 
 ## Куда дальше
 [[настройка swift server блога]]  
+[[бесплатный генератор Swift Publish блога на Netlify]]

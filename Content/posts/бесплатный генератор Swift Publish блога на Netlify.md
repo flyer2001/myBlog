@@ -1,6 +1,6 @@
 ---
 date: 2023-10-28 23:22
-description: свой блог за три щелчка мышки
+description: как опубликовать свой Swift Publish блог используя Netlify без своего хостинга и смс. Youtube видео-инструкция
 tags: 
 path: swift-publish-with-netlify
 ---
@@ -25,10 +25,8 @@ path: swift-publish-with-netlify
 [Настройка на netlify](https://www.youtube.com/watch?v=oc9ZkhPiQu0) - видео, с которого я подсмотрел это решение
 
 ## Куда дальше
-[[процесс публикации статьи в Swift Publish]]
-
-[[настройка swift server блога]]
-
-[[персональный домен]]
-
-[[автоматическая публикация сайта с использованием Github Actions]]
+[[процесс публикации статьи в Swift Publish]]  
+[[настройка swift server блога]]  
+[[персональный домен]]  
+[[автоматическая публикация сайта с использованием Github Actions]]  
+[[как помочь поисковикам найти ваш сайт SEO]]  
