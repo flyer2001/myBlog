@@ -18,11 +18,12 @@ struct PublishSwift: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://s.popyvanov.ru/")!
     var name = "Цифровой садик Попыванова Сергея"
-    var description = "Заметки, которые не помещаются в блокнот:"
+    var description = "Попыванов Сергей. Блог iOS-разработчика из Авито из Самары. Настройка чат-ботов в Telegram, блога на Swit, и продвинутое использование Obsidian. Эргономика, стул-седло, работа на беговой дорожке. Контакты. Резюме"
     var language: Language { .russian }
     var imagePath: Path? { nil }
-    var favicon = Favicon(path: Path("Resources/favicon.png"), type: "image/x-icon")
+    var favicon: Favicon? { Favicon(path: Path("Resources/favicon.ico"), type: "image/x-icon") }
 }
+
 
 try PublishSwift().publish(using: [
     .installPlugin(.splash(withClassPrefix: "splash")),
