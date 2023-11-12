@@ -9,7 +9,10 @@ extension Theme {
             htmlFactory: MyBlogHTMLFactory(),
             resourcePaths: [
                 "Resources/MyBlogTheme/styles.css",
-                "Resources/MyBlogTheme/inter.ttf"
+                "Resources/MyBlogTheme/inter.ttf",
+                "Resources/favicon.png",
+                "Resources/favicon.ico",
+                "Resources/robots.txt"
             ]
         )
     }
