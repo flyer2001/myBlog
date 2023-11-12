@@ -21,7 +21,7 @@ struct PublishSwift: Website {
     var description = "Попыванов Сергей. Блог iOS-разработчика из Авито из Самары. Настройка чат-ботов в Telegram, блога на Swit, и продвинутое использование Obsidian. Эргономика, стул-седло, работа на беговой дорожке. Контакты. Резюме"
     var language: Language { .russian }
     var imagePath: Path? { nil }
-    var favicon: Favicon? { Favicon(path: Path("Resources/favicon.ico"), type: "image/x-icon") }
+    var favicon: Favicon? { Favicon(path: Path("/favicon.ico"), type: "image/x-icon") }
 }
 
 
