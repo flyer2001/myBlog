@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /posts
+Sitemap: https://s.popyvanov.ru/sitemap.xml
