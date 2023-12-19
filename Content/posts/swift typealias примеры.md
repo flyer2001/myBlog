@@ -1,6 +1,6 @@
 ---
 date: 2023-12-19 1:48
-description: описание статьи
+description: как можно использовать
 tags: 
 path: swift-typealias-example
 ---
@@ -51,8 +51,7 @@ typealias NoContent = Result<Void, APIError>
 ```
 - поддержка разных платформ и архитектур
 
-```swift
-
+```swif
 #if os(iOS)
 typealias Color = UIColor
 
@@ -62,7 +61,6 @@ typealias Color = NSColor
 #endif
 
 let backgroundColor: Color = .white
-
 ```
 
 - [миграция](https://www.hackingwithswift.com/quick-start/swiftdata/how-to-create-a-complex-migration-using-versionedschema) на какой-то новый тип

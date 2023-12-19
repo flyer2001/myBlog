@@ -1,6 +1,6 @@
 ---
 date: 2023-12-19 12:01
-description: описание статьи
+description: заметки по iOS разработке
 tags: 
 path: swift-ios
 ---
