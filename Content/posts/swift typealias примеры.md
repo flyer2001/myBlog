@@ -70,3 +70,7 @@ typealias OldType = NewType
 [Swift typealias: What is it and when to use it]()(https://sarunw.com/posts/swift-typealias/)
 
 https://www.swiftwithvincent.com/blog/hidden-feature-typealias
+
+
+## Куда дальше
+[[заметки разработки iOS Swift]]

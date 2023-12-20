@@ -12,3 +12,6 @@ path:
 Для internal классов есть оговорка про включенную Whole Module Optimization. 
 
 [Источник со ссылками на доку Apple](https://samwize.com/2023/12/15/should-you-add-final-to-all-your-swift-classes/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=web&utm_source=iOS%2BDev%2BWeekly%2BIssue%2B640)
+
+## Куда дальше
+[[заметки разработки iOS Swift]]
