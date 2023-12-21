@@ -10,3 +10,4 @@ path: swift-ios
 [[swift typealias примеры]]
 [[final class swift]]
 [[словари dictionary Swift]]
+[[использование defer в Swift]]
