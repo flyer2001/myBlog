@@ -18,7 +18,9 @@ do {
 print("Шаг 5")
 // 1, 3, 4, 2, 5
 ```
+популярный кейс - это обновить UI после получения данных или каких-то расчетов
 
+## Очистка ресурсов после выполенния
 Отложенное выполнение closeFile - гарантируется даже, когда guard выкидывает из метода. 
 ```swift
 func writeLog() { 
@@ -35,6 +37,16 @@ func writeLog() {
 	file.write(networkStatus) }
 ```
 
+## Управление блокировками
+```swift
+func doSomethingSynchronized() {
+    lockResource()
+    defer {
+        unlockResource()
+    }
+    // здесь что то делаем
+}
+```
 
 ## Источники
 [статья на medium](https://medium.com/@SwiftBook.ru/%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D0%BE%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%BE-defer-34828b59f709)
