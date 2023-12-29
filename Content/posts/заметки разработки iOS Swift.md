@@ -11,3 +11,4 @@ path: swift-ios
 [[final class swift]]
 [[словари dictionary Swift]]
 [[использование defer в Swift]]
+[[дженерики generics swift]]
