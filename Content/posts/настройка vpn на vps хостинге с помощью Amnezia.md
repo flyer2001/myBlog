@@ -20,5 +20,6 @@ path: vpn-vps-amnezia
 До этого использовал [скрипт для openVPN сервера](https://dtf.ru/howto/1268692-delaem-svoy-vpn-server-s-trafikom-32-tb-odnoy-komandoy)
 
 ## Куда дальше
+
 [[настройка swift server блога]]  
 [[бесплатный генератор Swift Publish блога на Netlify]]

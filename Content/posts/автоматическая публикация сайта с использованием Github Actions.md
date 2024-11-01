@@ -82,4 +82,5 @@ secrets.ssh_password - это переменная, которую нужно п
 ![](https://habrastorage.org/webt/jg/2a/_1/jg2a_1mqdxfmzo3bw3tkgszdg2a.png)
 
 ## Куда дальше?
+
 [[настройка swift server блога]]

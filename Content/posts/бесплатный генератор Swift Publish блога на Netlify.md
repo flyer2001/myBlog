@@ -27,6 +27,7 @@ path: swift-publish-with-netlify
 [Настройка на netlify](https://www.youtube.com/watch?v=oc9ZkhPiQu0) - видео, с которого я подсмотрел это решение
 
 ## Куда дальше
+
 [[процесс публикации статьи в Swift Publish]]  
 [[настройка swift server блога]]  
 [[персональный домен]]  

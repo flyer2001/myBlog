@@ -12,3 +12,5 @@ path: swift-ios
 [[словари dictionary Swift]]
 [[использование defer в Swift]]
 [[дженерики generics swift]]
+[[настройка swift server блога]]
+[[процесс публикации статьи в Swift Publish]]

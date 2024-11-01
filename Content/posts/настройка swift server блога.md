@@ -96,6 +96,7 @@ server {
 ```
 sudo systemctl restart nginx
 ```
+
 И очень полезно юзать эту команду для отладки конфигурации (покажет где не поставили ;)
 ```
 nginx -t
@@ -142,8 +143,10 @@ git clone git clone https://github.com/flyer2001/myBlog
 cd myBlog
 swift run
 ```
+
 После этого действия в папке myBlog/Output - будет лежат статичный сайт с нужными страницами
 Создадим "ярлык" на папку, где будет лежать наш сайт
+
 ```
 cd /var/www/popyvanov.ru 
 ln -s /myBlog/Output/ s

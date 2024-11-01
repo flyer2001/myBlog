@@ -13,7 +13,6 @@ typealias Username = String
 typealias JSONDictionary = [String: Any]
 ```
 
-
 Более специализированные применения:
 - краткие записи замыканий
 ```swift

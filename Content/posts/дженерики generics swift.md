@@ -8,8 +8,7 @@ path: generics-swift
 Согласно официальной [документации](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/generics/) 
 Generic (универсальный код) - позволяет создать переиспользуемые методы и структуры для общих методов с разными типами данных. При этом управление типами перекладывается на компилятор. 
 
-Самые популярные кейсы
-
+Самые популярные кейсы.
 ## Создание универсальных структур, коллекций
 
 ```swift
@@ -49,7 +48,6 @@ func swapValues<T>(a: inout T, b: inout T) {
 ## Как это работает под капотом?
 
 Если хочется совсем глубины, есть книга [Compiling Swift Generics - Slava Pestov](https://download.swift.org/docs/assets/generics.pdf) - тут про то, как это на уровне компилятора работает
-
 ## Куда дальше
 [[заметки разработки iOS Swift]]
 
